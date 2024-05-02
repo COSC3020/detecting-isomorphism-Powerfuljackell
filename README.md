@@ -15,4 +15,4 @@ the function and run automatically when you commit through a GitHub action.
 
 ## Runtime Analysis
 
-What is the worst-case big $\Theta$ time complexity of your algorithm?
+What is the worst-case big $\Theta$ time complexity of your algorithm? Worst case $\Theta$ would be $\Theta(n^2)$ as the code iterates $n^2 + n^2 + n^2$ to initiate and then determine isomorphism thus $\Theta$ would be $\Theta(3n^2)$ and without constants $\Theta(n^2)$.
